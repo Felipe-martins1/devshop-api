@@ -10,13 +10,22 @@ type CategoryPublic {
 
 type Query {
   getAllCategories: [CategoryPublic!]!
+  getCategoryById(id: String!): CategoryPublic!
 }
 
 type Mutation {
   createCategory(input: CategoryCreateInput!): CategoryPublic!
+  updateCategory(input: CategoryUpdateInput!): CategoryPublic!
+  deleteCategory(id: String!): Boolean!
 }
 
 input CategoryCreateInput {
+  name: String!
+  slug: String!
+}
+
+input CategoryUpdateInput {
+  id: String!
   name: String!
   slug: String!
 }
