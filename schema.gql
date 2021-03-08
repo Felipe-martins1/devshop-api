@@ -8,15 +8,27 @@ type CategoryPublic {
   slug: String
 }
 
+type ProductPublic {
+  id: String
+  name: String
+  description: String
+  slug: String
+}
+
 type Query {
   getAllCategories: [CategoryPublic!]!
   getCategoryById(id: String!): CategoryPublic!
+  getAllProducts: [ProductPublic!]!
+  getProductById(id: String!): ProductPublic!
 }
 
 type Mutation {
   createCategory(input: CategoryCreateInput!): CategoryPublic!
   updateCategory(input: CategoryUpdateInput!): CategoryPublic!
   deleteCategory(id: String!): Boolean!
+  createProduct(input: ProductCreateInput!): ProductPublic!
+  updateProduct(input: ProductUpdateInput!): ProductPublic!
+  deleteProduct(id: String!): Boolean!
 }
 
 input CategoryCreateInput {
@@ -28,4 +40,19 @@ input CategoryUpdateInput {
   id: String!
   name: String!
   slug: String!
+}
+
+input ProductCreateInput {
+  name: String!
+  description: String!
+  slug: String!
+  category: String!
+}
+
+input ProductUpdateInput {
+  id: String!
+  name: String!
+  slug: String!
+  description: String!
+  category: String!
 }

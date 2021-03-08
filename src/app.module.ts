@@ -5,6 +5,7 @@ import { GraphQLModule } from '@nestjs/graphql'
 import { CategoryModule } from './category/category.module'
 import { TypeOrmModule } from '@nestjs/typeorm'
 import { ConfigModule, ConfigService } from '@nestjs/config'
+import { ProductModule } from './product/product.module'
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config'
       autoSchemaFile: 'schema.gql',
     }),
     CategoryModule,
+    ProductModule,
   ],
   controllers: [AppController],
   providers: [AppService],
