@@ -2,7 +2,7 @@
 
 ## Description
 
-<h4 style='color:#8ecae6;'>DevShop API is the backend for DevShop</h4>
+<h4 style='color:#5e60ce;'>DevShop API is the backend for DevShop</h4>
 </br>
 
 ## Developed using
@@ -34,19 +34,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Test
