@@ -1,12 +1,12 @@
 # DevShop Api
 
-## Description
+## 🔹 Description
 
-<p style='color:#5e60ce;'>DevShop API is the backend for DevShop</p>
+### DevShop API is the backend for DevShop
 
 </br>
 
-## Developed using
+## 🔹 Developed using
 
 - [<img src="https://nestjs.com/img/logo_text.svg" width="60" align="center" alt="Nest Logo" />](https://github.com/nestjs/nest)
 
@@ -18,13 +18,13 @@
 
 </br>
 
-## Installation
+## 🔹 Installation
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## 🔹 Running the app
 
 ```bash
 # development
@@ -37,7 +37,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## 🔹 Test
 
 ```bash
 # unit tests
@@ -50,7 +50,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Database Migrations
+## 🔹 Database Migrations
 
 ```bash
 # generate a new migration synchronizing entities
@@ -60,6 +60,6 @@ $ npm run typeorm migration:generate -- -n <migration description>
 $ npm run typeorm migration:run
 ```
 
-## License
+## ⚖️ License
 
-[MIT licensed](LICENSE).
+### [MIT licensed](LICENSE)
