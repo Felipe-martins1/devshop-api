@@ -6,7 +6,7 @@
 
 </br>
 
-## 🔹 Developed using
+## 🔹 Built With
 
 - [<img src="https://nestjs.com/img/logo_text.svg" width="60" align="center" alt="Nest Logo" />](https://github.com/nestjs/nest)
 
