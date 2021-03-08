@@ -8,7 +8,7 @@
 
 ## 🔹 Built With
 
-- [<img src="https://nestjs.com/img/logo_text.svg" width="150" align="center" alt="Nest Logo" />](https://github.com/nestjs/nest)
+- [<img src="https://nestjs.com/img/logo_text.svg" width="150" align="center" alt="Nest Logo" />](https://nestjs.com/)
 
 - [<img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="150px" align="center" alt="typeorm logo"></img>](https://typeorm.io/#/)
 
