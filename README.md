@@ -2,7 +2,8 @@
 
 ## Description
 
-<h4 style='color:#5e60ce;'>DevShop API is the backend for DevShop</h4>
+<p style='color:#5e60ce;'>DevShop API is the backend for DevShop</p>
+
 </br>
 
 ## Developed using
