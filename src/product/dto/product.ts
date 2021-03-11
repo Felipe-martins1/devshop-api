@@ -1,6 +1,6 @@
 import { Field, ObjectType } from '@nestjs/graphql'
 
-@ObjectType()
+@ObjectType('Product')
 export class ProductPublic {
   @Field({ nullable: true })
   id: string
@@ -13,4 +13,7 @@ export class ProductPublic {
 
   @Field({ nullable: true })
   slug: string
+
+  @Field({ nullable: true })
+  category: string
 }
