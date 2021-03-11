@@ -2,32 +2,33 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
-type CategoryPublic {
+type Category {
   id: String
   name: String
   slug: String
 }
 
-type ProductPublic {
+type Product {
   id: String
   name: String
   description: String
   slug: String
+  category: String
 }
 
 type Query {
-  getAllCategories: [CategoryPublic!]!
-  getCategoryById(id: String!): CategoryPublic!
-  getAllProducts: [ProductPublic!]!
-  getProductById(id: String!): ProductPublic!
+  getAllCategories: [Category!]!
+  getCategoryById(id: String!): Category!
+  getAllProducts: [Product!]!
+  getProductById(id: String!): Product!
 }
 
 type Mutation {
-  createCategory(input: CategoryCreateInput!): CategoryPublic!
-  updateCategory(input: CategoryUpdateInput!): CategoryPublic!
+  createCategory(input: CategoryCreateInput!): Category!
+  updateCategory(input: CategoryUpdateInput!): Category!
   deleteCategory(id: String!): Boolean!
-  createProduct(input: ProductCreateInput!): ProductPublic!
-  updateProduct(input: ProductUpdateInput!): ProductPublic!
+  createProduct(input: ProductCreateInput!): Product!
+  updateProduct(input: ProductUpdateInput!): Product!
   deleteProduct(id: String!): Boolean!
 }
 
